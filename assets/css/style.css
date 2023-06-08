@@ -1,0 +1,71 @@
+/* border-radius: per smussare*/
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+html{
+    display: flexbox;
+}
+
+img{
+    width: 420px;
+    height: 400px;
+    margin-left: 10%;
+    border-radius: 100%;
+}
+
+h1{
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: 1000;
+}
+
+.info{
+    font-size: 30px;
+    margin-bottom: 20%;
+    margin-left: none;
+    padding-right: 100%;
+}
+
+section{
+    padding-bottom: 0;
+}
+
+.left{
+   float: left;
+   margin-left: 20%;
+   background-color: #31fdbe;
+   font-size: 20px;
+}
+
+.right{
+    margin-left: 60%;
+    font-size: 20px;
+}
+
+main{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+div{
+    padding-left: 15%;
+}
+
+h2{
+    font-weight: 400;
+    color: red;
+}
+
+li{
+    padding-top: 5px;
+    font-weight: 200;
+    list-style-type: none;
+}
+
+h3{
+    color: darkblue;
+}
+
+ul{
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #31fdbe;
+    padding-bottom: 10px;
+}
