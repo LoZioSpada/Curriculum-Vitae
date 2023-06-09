@@ -1,38 +1,42 @@
-/* border-radius: per smussare*/
-@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Water+Brush&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
 
 html{
     display: flexbox;
+    font-family: 'Rubik', sans-serif;
 }
 
-img{
-    width: 420px;
+
+
+img {
+    width: 400px;
     height: 400px;
-    margin-left: 10%;
+    margin-left: -20%;
     border-radius: 100%;
 }
 
 h1{
-    font-family: 'Shadows Into Light', cursive;
-    font-weight: 1000;
+    font-family: 'Water Brush', cursive;
+    font-weight: 900;
 }
 
 .info{
     font-size: 30px;
     margin-bottom: 20%;
-    margin-left: none;
-    padding-right: 100%;
+    padding-top: 5%;
+    padding-left: 0%;
 }
 
 section{
     padding-bottom: 0;
 }
 
-.left{
-   float: left;
-   margin-left: 20%;
-   background-color: #31fdbe;
-   font-size: 20px;
+.left {
+    float: left;
+    margin-left: 10%;
+    background-color: #31fdbe;
+    font-size: 20px;
+    padding-left: 5%;
 }
 
 .right{
@@ -40,12 +44,8 @@ section{
     font-size: 20px;
 }
 
-main{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
 div{
-    padding-left: 15%;
+    padding-left: 10%;
 }
 
 h2{
@@ -73,4 +73,9 @@ ul{
 
 span{
     color: orangered;
+}
+
+.language{
+    margin-right: 20%;
+    padding-left: 0%;
 }
